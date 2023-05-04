@@ -63,7 +63,7 @@ h1 {
     header {
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-evenly;
         padding-top: 2vmax;
     }
     .website_name {
