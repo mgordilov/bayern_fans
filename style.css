@@ -64,6 +64,7 @@ h1 {
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+        padding-top: 2vmax;
     }
     .website_name {
         margin: auto;
