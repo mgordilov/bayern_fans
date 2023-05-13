@@ -26,7 +26,7 @@ header {
     justify-content: space-between;
     background-color: #2B303A;
     margin: 0;
-    padding: 1% 10%;
+    padding: 0.6vw 10vw;
     
 }
 
@@ -34,7 +34,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 28vmax;
+    width: 27vmax;
 }
 .logo {
     height: 5vmax;
@@ -63,8 +63,13 @@ h1 {
     header {
         flex-direction: column;
         align-items: center;
+    }
+    .nav {
+        margin-top: 3%;
+        display: flex;
+        width: 100vw;
         justify-content: space-evenly;
-        padding-top: 2vmax;
+        /* align-items: center; */
     }
     .website_name {
         margin: auto;
