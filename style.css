@@ -69,7 +69,6 @@ h1 {
         display: flex;
         width: 100vw;
         justify-content: space-evenly;
-        /* align-items: center; */
     }
     .website_name {
         margin: auto;
