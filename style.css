@@ -46,7 +46,7 @@ header {
 
 }
 
-ul {
+.nav {
     list-style: none;
     display: flex;
     padding: 0;
@@ -60,6 +60,17 @@ nav ul li {
 
 h1 {
     font-size: 2vmax;
+}
+
+.temp {
+    margin-top: 50%;
+}
+
+footer {
+    background-color: #2B303A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
