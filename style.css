@@ -30,6 +30,10 @@ header {
     
 }
 
+.active {
+    color: #2D82B7;
+}
+
 .logo_and_name {
     display: flex;
     align-items: center;
