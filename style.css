@@ -112,7 +112,7 @@ hr {
     margin: 10vh auto;
 }
 
-.homepage_photo {
+.photo {
     width: 74vw;
 }
 
@@ -239,7 +239,7 @@ footer {
     iframe {
         height: 35vh;
     }
-    .homepage_photo {
+    .photo {
         width: 84vw;
     }
 /**************** STANDINGS *****************/
