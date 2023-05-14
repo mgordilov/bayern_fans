@@ -69,6 +69,14 @@ nav ul li {
     font-size: 2vw;
 }
 
+.intro {
+    /* margin-top: 7vw; */
+    width: 100vw;
+    height: 100vh;
+    background-image: url(allianz_arena.webp);
+    background-repeat: no-repeat;
+}
+
 .content {
     margin: 8vw auto 2vw;
     background-color: #FFFFFF;
