@@ -91,7 +91,7 @@ body {
 }
 
 .content {
-    margin: 8vw auto 2vw;
+    margin: 8vh auto 2vh;
     background-color: #FFFFFF;
     color: #2B303A;
     width: 80vw;
@@ -153,6 +153,27 @@ td:last-child {
 }
 .right_align {
     text-align: right;
+}
+
+
+/**************** ABOUT PAGE *****************/
+.intro_about {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(About_intro/berni.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 78%;
+}
+.about_welcome {
+    margin: 0;
+    padding-top: 87vh;
+    padding-left: 3vw;
+    color: #FFFFFF;
+    font-size: 8vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0, 0.50);
 }
 
 /**************** FOOTER *****************/
