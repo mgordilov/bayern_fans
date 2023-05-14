@@ -6,6 +6,7 @@
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 a:hover, a:visited:hover {
     color: #F51C32;
@@ -68,8 +69,6 @@ h1 {
 
 .content {
     margin: 8vw auto 2vw;
-    /* margin-left: auto;
-    margin-right: auto; */
     background-color: #FFFFFF;
     color: #2B303A;
     width: 80vw;
@@ -119,6 +118,7 @@ footer {
     }
     .content {
         margin: 18vw auto 1vw;
+        padding-top: 2vw;
         width: 90vw;
     }
 }
