@@ -75,6 +75,8 @@ nav ul li {
     color: #2B303A;
     width: 80vw;
     padding: 3vw;
+    border-radius: 7px;
+    box-shadow: 0 6px 8px 0 rgb(0, 0, 0, 0.2), 0 8px 20px 0 rgb(0, 0, 0, 0.19);
 }
 
 table {
@@ -141,7 +143,7 @@ footer {
         width: fit-content;
     }
     .content {
-        margin: 18vw auto 1vw;
+        margin: 18vw auto 2vw;
         padding-top: 2vw;
         width: 90vw;
     }
