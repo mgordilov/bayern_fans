@@ -86,6 +86,9 @@ nav ul li {
     border-radius: 7px;
     box-shadow: 0 6px 8px 0 rgb(0, 0, 0, 0.2), 0 8px 20px 0 rgb(0, 0, 0, 0.19);
 }
+.home {
+    margin-top: 2vw;
+}
 
 table {
     width: 60vw;
@@ -155,6 +158,9 @@ footer {
         margin: 18vw auto 2vw;
         padding-top: 2vw;
         width: 90vw;
+    }
+    .home {
+        margin-top: 2vw;
     }
     table {
         width: 84vw;
