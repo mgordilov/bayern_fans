@@ -117,6 +117,23 @@ hr {
 }
 
 /**************** STANDINGS PAGE *****************/
+.intro_standings {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Standings_intro/bundesliga.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.standings_welcome {
+    margin: 0;
+    padding-top: 87vh;
+    color: #FFFFFF;
+    font-size: 8vh;
+    width: 100vw;
+    text-align: center;
+}
 table {
     width: 60vw;
     border-spacing: 0;
@@ -191,12 +208,12 @@ footer {
         padding-top: 80vh;
     }
     .content {
-        margin: 18vw auto 2vw;
+        margin: 8vw auto 2vw;
         padding-top: 2vw;
         width: 90vw;
     }
     .home {
-        margin-top: 2vw;
+        margin-top: 8vw;
     }
     iframe {
         height: 35vh;
