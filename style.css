@@ -1,7 +1,6 @@
 * {
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
-    /* display: flex; */
 }
 
 /**************** HEADER AND NAVBAR *****************/
@@ -76,7 +75,7 @@ body {
     display: flex;
     width: 100vw;
     height: 100vh;
-    background-image: url(allianz_arena.webp);
+    background-image: url(Homepage_photos/allianz_arena.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
