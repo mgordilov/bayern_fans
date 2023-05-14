@@ -4,6 +4,7 @@
     /* display: flex; */
 }
 
+/**************** HEADER AND NAVBAR *****************/
 a {
     text-decoration: none;
     color: inherit;
@@ -18,12 +19,6 @@ a:visited {
     color: aquamarine;
     cursor: none;
     pointer-events: none;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #F51C32;
 }
 
 header {
@@ -69,6 +64,14 @@ nav ul li {
     font-size: 2vw;
 }
 
+/**************** BODY *****************/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F51C32;
+}
+
+/**************** HOMEPAGE + CONTENT SECTION *****************/
 .intro {
     display: flex;
     width: 100vw;
@@ -77,6 +80,7 @@ nav ul li {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .welcome1 {
     margin: 0;
     padding-top: 85vh;
@@ -95,10 +99,13 @@ nav ul li {
     padding: 3vw;
     border-radius: 7px;
     box-shadow: 0 6px 8px 0 rgb(0, 0, 0, 0.2), 0 8px 20px 0 rgb(0, 0, 0, 0.19);
+    flex-wrap: wrap;
 }
+
 .home {
     margin-top: 2vw;
 }
+
 hr {
     border: dotted #F51C32 2vh;
     border-bottom: none;
@@ -106,6 +113,11 @@ hr {
     margin: 10vh auto;
 }
 
+.stadium_home {
+    width: 74vw;
+}
+
+/**************** STANDINGS PAGE *****************/
 table {
     width: 60vw;
     border-spacing: 0;
@@ -120,10 +132,14 @@ td, th {
 tr:hover {
     background-color: aquamarine;
 }
+td:last-child {
+    font-weight: bold;
+}
 .right_align {
     text-align: right;
 }
 
+/**************** FOOTER *****************/
 footer {
     background-color: #2B303A;
     display: flex;
@@ -149,6 +165,7 @@ footer {
 
 
 @media screen and (max-width: 900px) {
+/**************** HEADER + NAV *****************/
     header {
         padding-top: 2vw;
         flex-direction: column;
@@ -170,6 +187,7 @@ footer {
     .logo_and_name {
         width: fit-content;
     }
+/**************** BODY + CONTENT-BOX *****************/
     .welcome1 {
         padding-top: 80vh;
     }
@@ -184,9 +202,14 @@ footer {
     iframe {
         height: 35vh;
     }
+    .stadium_home {
+        width: 84vw;
+    }
+/**************** STANDINGS *****************/
     table {
         width: 84vw;
     }
+/**************** FOOTER *****************/
     footer {
         padding: 0 5vw;
         font-size: 3vw;
