@@ -99,6 +99,12 @@ nav ul li {
 .home {
     margin-top: 2vw;
 }
+hr {
+    border: dotted #F51C32 2vh;
+    border-bottom: none;
+    width: 30vw;
+    margin: 10vh auto;
+}
 
 table {
     width: 60vw;
