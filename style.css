@@ -43,28 +43,30 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 27vmax;
+    width: 27vw;
 }
 .logo {
-    height: 5vmax;
+    height: 5vw;
     float: left;
 
 }
 
-.nav {
+ul {
     list-style: none;
     display: flex;
     padding: 0;
 }
-
-nav ul li {
+li {
     margin: auto 1rem;
     cursor: pointer;
-    font-size: 1.5vmax;
 }
 
-h1 {
-    font-size: 2vmax;
+nav ul li {
+    font-size: 1.5vw;
+}
+
+.website_name {
+    font-size: 2vw;
 }
 
 .content {
@@ -99,6 +101,21 @@ footer {
     align-items: center;
     justify-content: space-between;
     color: #FFFFFF;
+    padding: 0 10vw;
+    font-size: 2vw;
+}
+.follow {
+    display: flex;
+    justify-content: space-between;
+}
+.fa-facebook:hover {
+    color: rgb(0, 94, 188);
+}
+.fa-instagram:hover {
+    color: rgb(255, 133, 133);
+}
+.fa-twitter:hover {
+    color: dodgerblue;
 }
 
 
@@ -113,12 +130,26 @@ footer {
         width: 100vw;
         justify-content: space-evenly;
     }
+    nav ul li {
+        font-size: 2.5vw;
+    }
     .website_name {
-        margin: auto;
+        margin: auto 2vw;
+        font-size: 3.5vw;
+    }
+    .logo_and_name {
+        width: fit-content;
     }
     .content {
         margin: 18vw auto 1vw;
         padding-top: 2vw;
         width: 90vw;
+    }
+    table {
+        width: 84vw;
+    }
+    footer {
+        padding: 0 5vw;
+        font-size: 3vw;
     }
 }
