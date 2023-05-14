@@ -1,14 +1,22 @@
 * {
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
-    color: #FFFFFF;
+    /* display: flex; */
 }
 
 a {
     text-decoration: none;
 }
-a:hover {
+a:hover, a:visited:hover {
     color: #F51C32;
+}
+a:visited {
+    color: inherit;
+}
+.active, .active:visited {
+    color: aquamarine;
+    cursor: none;
+    pointer-events: none;
 }
 
 body {
@@ -27,11 +35,7 @@ header {
     background-color: #2B303A;
     margin: 0;
     padding: 0.6vw 10vw;
-    
-}
-
-.active {
-    color: #2D82B7;
+    color: #FFFFFF;
 }
 
 .logo_and_name {
@@ -62,8 +66,32 @@ h1 {
     font-size: 2vmax;
 }
 
-.temp {
-    margin-top: 50%;
+.content {
+    margin: 8vw auto 2vw;
+    /* margin-left: auto;
+    margin-right: auto; */
+    background-color: #FFFFFF;
+    color: #2B303A;
+    width: 80vw;
+    padding: 3vw;
+}
+
+table {
+    width: 60vw;
+    border-spacing: 0;
+}
+thead {
+    text-align: left;
+}
+td, th {
+    border-top: solid #2B303A 1px;
+    padding: 1vw;
+}
+tr:hover {
+    background-color: aquamarine;
+}
+.right_align {
+    text-align: right;
 }
 
 footer {
@@ -71,6 +99,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: #FFFFFF;
 }
 
 
@@ -87,5 +116,9 @@ footer {
     }
     .website_name {
         margin: auto;
+    }
+    .content {
+        margin: 18vw auto 1vw;
+        width: 90vw;
     }
 }
