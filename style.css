@@ -175,7 +175,15 @@ td:last-child {
     width: 100vw;
     background-color: rgb(0, 0, 0, 0.50);
 }
-.btn{
+.inputs {
+    width: 35vw;
+    height: 5vh;
+}
+#message {
+    resize: none;
+    height: 20vh;
+}
+.btn {
 color: #fff;
 background-color: #f51c32;
 padding: 10px 30px;
@@ -190,9 +198,7 @@ align-items: center;
 cursor: pointer;
 text-transform: uppercase;
 }
-
-.btn:hover{
-
+.btn:hover {
 transition : 528ms;
 padding: 10px 50px;
 transform : translateY(-0px);
@@ -269,6 +275,10 @@ footer {
     }
 /**************** STANDINGS *****************/
     table {
+        width: 84vw;
+    }
+/**************** ABOUT *****************/
+    .inputs {
         width: 84vw;
     }
 /**************** FOOTER *****************/
