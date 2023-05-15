@@ -76,8 +76,8 @@ body {
     width: 100vw;
     height: 100vh;
     background-image: url(Homepage_photos/allianz_arena.webp);
-    background-repeat: no-repeat;
     background-size: cover;
+    background-position-x: 9%;
 }
 
 .welcome1 {
@@ -122,7 +122,6 @@ hr {
     width: 100vw;
     height: 100vh;
     background-image: url(Standings_intro/bundesliga.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
 }
@@ -154,15 +153,21 @@ td:last-child {
 .right_align {
     text-align: right;
 }
-
-
+/**************** PLAYERS PAGE *****************/
+.intro_players {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Players/team.jpeg);
+    background-size: cover;
+    background-position-x: center;
+}
 /**************** ABOUT PAGE *****************/
 .intro_about {
     display: flex;
     width: 100vw;
     height: 100vh;
     background-image: url(About_intro/berni.webp);
-    background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 78%;
 }
