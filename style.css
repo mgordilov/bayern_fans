@@ -158,6 +158,11 @@ td:last-child {
     display: flex;
     flex-direction: row;
 }
+.text_photo {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 5vh auto;
+}
 .player_photo {
     width: 20vw;
     height: 20vw;
@@ -285,6 +290,15 @@ footer {
 /**************** STANDINGS *****************/
     table {
         width: 84vw;
+    }
+/**************** PLAYERS *****************/
+    .squad_info {
+        flex-direction: column;
+    }
+    .player_photo {
+        width: 84vw;
+        height: 30vh;
+        object-position: top;
     }
 /**************** ABOUT *****************/
     .inputs {
