@@ -154,6 +154,17 @@ td:last-child {
     background-size: cover;
     background-position-x: center;
 }
+.photo_text {
+    display: flex;
+    flex-direction: row;
+}
+.player_photo {
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
+    object-position: center;
+    flex-flow: row;
+}
 
 /**************** ABOUT PAGE *****************/
 .intro_about {
