@@ -252,8 +252,8 @@ footer {
     align-items: center;
     justify-content: space-between;
     color: #FFFFFF;
-    padding: 0 10vw;
-    font-size: 2vw;
+    padding: 0 5em;
+    font-size: 1.2em;
 }
 .follow {
     display: flex;
@@ -327,6 +327,6 @@ footer {
 /**************** FOOTER *****************/
     footer {
         padding: 0 5vw;
-        font-size: 3vw;
+        font-size: 100%;
     }
 }
