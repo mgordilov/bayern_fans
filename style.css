@@ -191,6 +191,9 @@ td:last-child {
     object-position: center;
     flex-flow: row;
 }
+.number {
+    color: #F51C32;
+}
 
 /**************** ABOUT PAGE *****************/
 .intro_about {
