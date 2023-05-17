@@ -189,7 +189,6 @@ td:last-child {
     height: 20vw;
     object-fit: cover;
     object-position: center;
-    flex-flow: row;
 }
 .number {
     color: #F51C32;
