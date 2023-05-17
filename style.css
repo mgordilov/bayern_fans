@@ -317,7 +317,7 @@ footer {
     .player_photo {
         width: 84vw;
         height: 30vh;
-        object-position: top;
+        object-fit: scale-down;
     }
 /**************** ABOUT *****************/
     .inputs {
