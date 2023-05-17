@@ -103,9 +103,9 @@ body {
 }
 
 hr {
-    border: dotted #F51C32 2vh;
+    border: solid #F51C32 0.2em;
     border-bottom: none;
-    width: 30vw;
+    width: 45vw;
     margin: 10vh auto;
 }
 
