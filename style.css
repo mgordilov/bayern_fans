@@ -157,8 +157,8 @@ td:last-child {
     align-items: flex-start;
     text-align: center;
     margin: 7vh auto;
-}
-.lnear:before, .linear:after {
+}  
+.liner:before, .liner:after {
     content: '';
     flex-grow: 1;
     height: 0.1em;
@@ -166,10 +166,10 @@ td:last-child {
     min-width: 20px;
     margin: auto;
 }
-.linear:before {
+.liner:before {
     margin-right: 1em;
 }
-.linear:after {
+.liner:after {
     margin-left: 1em;
 }
 
