@@ -156,6 +156,7 @@ td:last-child {
     display: flex;
     align-items: flex-start;
     text-align: center;
+    margin: 7vh auto;
     
     &:before, &:after {
         content: '';
