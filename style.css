@@ -151,6 +151,28 @@ td:last-child {
     background-size: cover;
     background-position-x: center;
 }
+
+.liner {
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    
+    &:before, &:after {
+        content: '';
+        flex-grow: 1;
+        height: 0.1em;
+        background: #F51C32;
+        min-width: 20px;
+        margin: auto;
+      }
+      &:before {
+        margin-right: 1em;
+      }
+      &:after {
+        margin-left: 1em;
+      }
+}
+
 .photo_text {
     display: flex;
     flex-direction: row;
