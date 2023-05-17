@@ -165,13 +165,13 @@ td:last-child {
         background: #F51C32;
         min-width: 20px;
         margin: auto;
-      }
-      &:before {
+    }
+    &:before {
         margin-right: 1em;
-      }
-      &:after {
+    }
+    &:after {
         margin-left: 1em;
-      }
+    }
 }
 
 .photo_text {
