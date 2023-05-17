@@ -157,21 +157,20 @@ td:last-child {
     align-items: flex-start;
     text-align: center;
     margin: 7vh auto;
-    
-    &:before, &:after {
-        content: '';
-        flex-grow: 1;
-        height: 0.1em;
-        background: #F51C32;
-        min-width: 20px;
-        margin: auto;
-    }
-    &:before {
-        margin-right: 1em;
-    }
-    &:after {
-        margin-left: 1em;
-    }
+}
+.lnear:before, .linear:after {
+    content: '';
+    flex-grow: 1;
+    height: 0.1em;
+    background: #F51C32;
+    min-width: 20px;
+    margin: auto;
+}
+.linear:before {
+    margin-right: 1em;
+}
+.linear:after {
+    margin-left: 1em;
 }
 
 .photo_text {
