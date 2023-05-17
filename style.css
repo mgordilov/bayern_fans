@@ -152,6 +152,7 @@ td:last-child {
     background-position-x: center;
 }
 
+
 .liner {
     display: flex;
     align-items: flex-start;
@@ -172,6 +173,7 @@ td:last-child {
 .liner:after {
     margin-left: 1em;
 }
+
 
 .photo_text {
     display: flex;
