@@ -152,6 +152,16 @@ td:last-child {
     background-position-x: center;
 }
 
+.jump_to, .jump_to_ico {
+    display: flex;
+    flex-direction: row;
+}
+.jt_ico {
+    width: 2.5em;
+}
+.jt_a {
+    margin: auto 3vw;
+}
 
 .liner {
     display: flex;
@@ -311,6 +321,16 @@ footer {
         width: 84vw;
     }
 /**************** PLAYERS *****************/
+    .jump_to {
+        flex-direction: column;
+        align-items: center;
+    }
+    .jt_ico {
+        width: 3em;
+    }
+    .jt_a {
+        margin: auto 5vw;
+    }
     .squad_info {
         flex-direction: column;
     }
