@@ -72,7 +72,7 @@ body {
     display: flex;
     width: 100vw;
     height: 100vh;
-    background-image: url(Homepage_photos/allianz_arena.webp);
+    background-image: url(https://i.ibb.co/DgP5g5X/allianz-arena.webp);
     background-size: cover;
     background-position-x: 9%;
 }
@@ -118,7 +118,7 @@ hr {
     display: flex;
     width: 100vw;
     height: 100vh;
-    background-image: url(Standings_intro/bundesliga.jpg);
+    background-image: url(https://i.ibb.co/xSgjWvZ/bundesliga.jpg);
     background-size: cover;
     background-position-x: center;
 }
@@ -147,7 +147,7 @@ td:last-child {
     display: flex;
     width: 100vw;
     height: 100vh;
-    background-image: url(Players/team.jpeg);
+    background-image: url(https://i.ibb.co/QM7v5zt/team.jpg);
     background-size: cover;
     background-position-x: center;
 }
@@ -209,7 +209,7 @@ td:last-child {
     display: flex;
     width: 100vw;
     height: 100vh;
-    background-image: url(About_intro/berni.webp);
+    background-image: url(https://i.ibb.co/YcWvq1t/berni.webp);
     background-size: cover;
     background-position-x: 78%;
 }
