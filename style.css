@@ -189,6 +189,9 @@ td:last-child {
     display: flex;
     flex-direction: row;
 }
+.photo_text>.info_players {
+    margin: auto 1vw;
+}
 .text_photo {
     display: flex;
     flex-direction: row-reverse;
